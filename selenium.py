@@ -76,7 +76,7 @@ for i in range(len(df_country)):
     except TimeoutException:
         print("Loading took too much time!")
 
-driver.find_element_by_partial_link_text("XXXXXXXXXX").click()
+driver.find_element_by_partial_link_text("xxx@xyz.org").click()
 driver.find_element_by_partial_link_text("Sign out").click()
 sleep(5)
 driver.quit()
